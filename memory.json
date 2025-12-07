@@ -1,0 +1,22 @@
+[
+  {
+    "ticket_no": "TICKET-0101",
+    "resolution": "the billing page stuck because of api fault which need to be fixed",
+    "approved_by_human": true
+  },
+  {
+    "ticket_no": "TICKET-0016",
+    "resolution": "web page outgae need api resolution",
+    "approved_by_human": true
+  },
+  {
+    "ticket_no": "TICKET-0020",
+    "resolution": "close it",
+    "approved_by_human": true
+  },
+  {
+    "ticket_no": "TICKET-0080",
+    "resolution": "cognito token issue due to aws problem",
+    "approved_by_human": true
+  }
+]

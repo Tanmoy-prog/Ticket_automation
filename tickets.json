@@ -1,0 +1,1218 @@
+[
+  {
+    "ticket_no": "TICKET-0001",
+    "description": "I can't access the CRM; every time I try to load customer profiles it hangs. It's a low-severity bug that's slowing me down.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM access",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Update the database connection string to point to the correct server."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0002",
+    "description": "I'm getting errors in the ERP when I post invoices. This medium-severity incident is holding up billing.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP - Invoice Processing",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 89,
+      "propose_fix": "Update the invoice data fields to ensure accuracy before submission."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0003",
+    "description": "I requested a change but the Email System notifications never arrived. It's a high-severity service request for our team updates.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Email System",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0004",
+    "description": "I need to update our database schema but the tool won\u2019t let me save. It's a critical-severity change that\u2019s blocking new reports.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "database schema update",
+      "severity": "critical",
+      "affected_system": "database schema",
+      "confidence": 89,
+      "propose_fix": "Please verify the database schema is properly configured before saving."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0005",
+    "description": "The Network is down intermittently and I can\u2019t reach any sites. This is a low-severity outage but it\u2019s annoying my remote work.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network outage",
+      "severity": "low",
+      "affected_system": "remote work",
+      "confidence": 89,
+      "propose_fix": "Restart the network connection."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0006",
+    "description": "I noticed a bug in the Web Portal where the dashboard widgets overlap. It's a medium-severity bug affecting usability.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "web portal bug",
+      "severity": "medium",
+      "affected_system": "web portal",
+      "confidence": 89,
+      "propose_fix": "Implement a bounding box or overlay to prevent widget overlap."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0007",
+    "description": "There was an incident in the Mobile App making the login screen unresponsive. It's a high-severity incident keeping me out.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Mobile App",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0008",
+    "description": "I filed a service request because the API documentation link is broken. This is a critical-severity service request for the dev team.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API documentation issue",
+      "severity": "critical",
+      "affected_system": "dev team",
+      "confidence": 89,
+      "propose_fix": "Update the API documentation link to the latest version."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0009",
+    "description": "I asked for a change to the Reporting Module but the update hasn\u2019t appeared. It's a low-severity change request.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0010",
+    "description": "Our Authentication Service went offline briefly. It's a medium-severity outage that caused sign-in failures.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Authentication Service Outage",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 89,
+      "propose_fix": "Restore the authentication service from the last known good backup."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0011",
+    "description": "I keep seeing a bug in the CRM where saved contacts vanish. It's a low-severity issue but important for my tracking.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Verify contact data deletion from the database."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0012",
+    "description": "The ERP is throwing payment errors. This medium-severity incident is delaying our vendor payouts.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP Payment Errors",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 89,
+      "propose_fix": "Investigate and resolve the payment processing error within the ERP system."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0013",
+    "description": "I raised a service request because the Email System filters aren\u2019t working. It\u2019s a high-severity request; I\u2019m missing important mails.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Email System",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0014",
+    "description": "I need to roll out a database patch but migrations fail. It's a critical-severity change that\u2019s blocking deployment.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "database migration",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 89,
+      "propose_fix": "Update the migration script to ensure compatibility with the new database version."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0015",
+    "description": "There was an outage on the Network causing slow VPN. It's a low-severity outage but frustrating when working remotely.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "VPN outage",
+      "severity": "low",
+      "affected_system": "Network",
+      "confidence": 89,
+      "propose_fix": "Restart the VPN service to resolve the slow VPN connection."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0016",
+    "description": "I found a bug in the Web Portal search function\u2014it returns unrelated results. It's a medium-severity bug that wastes time.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Web Portal Search",
+      "severity": "medium",
+      "affected_system": "Web Portal search",
+      "confidence": 70,
+      "propose_fix": "none"
+    },
+    "human_resolution": "web page outgae need api resolution"
+  },
+  {
+    "ticket_no": "TICKET-0017",
+    "description": "I reported an incident in the Mobile App where push notifications never arrive. It's a high-severity problem for user updates.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "notification issue",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please investigate the network connection and verify notification permissions for the app."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0018",
+    "description": "I submitted a service request because the API rate limit is too low. It's a critical-severity request\u2014integrations are failing.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API Rate Limit",
+      "severity": "critical",
+      "affected_system": "API",
+      "confidence": 95,
+      "propose_fix": "Please increase the API request limits."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0019",
+    "description": "I asked for a change in the Reporting Module layout but nothing changed. It\u2019s a low-severity request but I need clarity.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0020",
+    "description": "I saw an outage on the Authentication Service that blocked everyone\u2019s login. It's a medium-severity outage impacting the whole team.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    },
+    "human_resolution": "close it"
+  },
+  {
+    "ticket_no": "TICKET-0021",
+    "description": "The CRM keeps logging me out randomly. It's a low-severity bug but interrupts my workflow.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Update the CRM\u2019s logging to include a timestamp when a user is logged out, to help with debugging."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0022",
+    "description": "The ERP crashed when generating reports. This medium-severity incident is disrupting month-end close.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP system",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 89,
+      "propose_fix": "Investigate the database connection issue to ensure proper report generation."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0023",
+    "description": "I need the Email System whitelist updated for a new domain. It\u2019s a high-severity service request; we\u2019re missing client emails.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 95,
+      "propose_fix": "Update the email system whitelist for the new domain."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0024",
+    "description": "I requested a database index change but queries still time out. It's a critical-severity change for performance.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "performance",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 95,
+      "propose_fix": "Update the index to resolve performance issues."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0025",
+    "description": "Our Network speed dipped below acceptable levels. It's a low-severity outage but slows down file transfers.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "network performance",
+      "severity": "low",
+      "affected_system": "network",
+      "confidence": 89,
+      "propose_fix": "Restart the network connection."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0026",
+    "description": "I noticed the Web Portal profile page layout is broken. It's a medium-severity bug making edits difficult.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Web Portal layout bug",
+      "severity": "medium",
+      "affected_system": "Web Portal profile page",
+      "confidence": 89,
+      "propose_fix": "Implement a CSS reset to ensure consistent styling across the profile page."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0027",
+    "description": "There was an incident in the Mobile App causing crashes on startup. It's a high-severity issue for all mobile users.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Mobile App Crash",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Implement a crash reporting mechanism to identify and address the root cause of the startup crashes."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0028",
+    "description": "I submitted a service request to increase API timeouts. It's a critical-severity request\u2014calls are failing constantly.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API timeout",
+      "severity": "critical",
+      "affected_system": "API",
+      "confidence": 89,
+      "propose_fix": "Please review and adjust the API timeout settings to ensure they are sufficient to prevent failures."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0029",
+    "description": "I asked to change the default report in the Reporting Module but the system ignores it. It's a low-severity change.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "system issue",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 89,
+      "propose_fix": "Please re-authenticate the report configuration."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0030",
+    "description": "The Authentication Service rejected valid credentials yesterday. It's a medium-severity outage causing login confusion.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0031",
+    "description": "I have a bug in the CRM where export to CSV skips fields. It's a low-severity problem but I need complete data.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Implement a field mapping to ensure all required fields are exported in the CSV."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0032",
+    "description": "The ERP shows wrong tax calculations. This medium-severity incident is affecting invoices.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP system",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 89,
+      "propose_fix": "Update the tax calculation parameters in the ERP system."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0033",
+    "description": "I need a service request to whitelist new email domains. It's a high-severity request\u2014clients\u2019 mails bounce.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "Email Whitelisting",
+      "confidence": 89,
+      "propose_fix": "Implement a whitelist for new email domains to prevent bounce events."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0034",
+    "description": "I rolled out a database change but it broke backups. It's a critical-severity change\u2014backup failures are risky.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "database",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0035",
+    "description": "Our Network VPN disconnects randomly. It's a low-severity outage but disrupts meetings.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network Connectivity",
+      "severity": "low",
+      "affected_system": "Network VPN",
+      "confidence": 89,
+      "propose_fix": "Implement a logging mechanism to capture connection attempts and failure events for troubleshooting."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0036",
+    "description": "I see a bug where the Web Portal calendar doesn\u2019t show events. It's a medium-severity bug causing missed appointments.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "web portal bug",
+      "severity": "medium",
+      "affected_system": "web portal calendar",
+      "confidence": 89,
+      "propose_fix": "Update the event data in the database to ensure events are displayed correctly."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0037",
+    "description": "I opened an incident because the Mobile App can\u2019t upload photos. It's a high-severity issue for field teams.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Mobile App functionality",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please verify the mobile device\u2019s network connection and ensure the photo upload permissions are granted."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0038",
+    "description": "I filed a service request to reset our API keys. It's a critical-severity request\u2014integrations are failing.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API Key Reset",
+      "severity": "critical",
+      "affected_system": "API Keys",
+      "confidence": 89,
+      "propose_fix": "Please escalate this request to a higher-tier support team for immediate key reset authorization."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0039",
+    "description": "I need to change the default dashboard in the Reporting Module but it didn\u2019t update. It's a low-severity change.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Dashboard update",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 89,
+      "propose_fix": "Update the dashboard settings to reflect the desired configuration."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0040",
+    "description": "The Authentication Service timed out yesterday. It's a medium-severity outage causing login delays.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0041",
+    "description": "There's a bug in the CRM email integration\u2014outgoing mails aren\u2019t sent. It's a low-severity bug but frustrating.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM - Email Integration",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Update the outgoing email settings to ensure emails are sent successfully."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0042",
+    "description": "The ERP login page is slow. This medium-severity incident delays my daily tasks.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP login",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 95,
+      "propose_fix": "Update the ERP login page with a caching mechanism."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0043",
+    "description": "I raised a service request because the Email System auto-archive is incorrectly flagging messages. It's a high-severity issue.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Email System",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0044",
+    "description": "I need a database connection string change but can\u2019t update it. It's a critical-severity change blocking tool access.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "database connection",
+      "severity": "critical",
+      "affected_system": "tool access",
+      "confidence": 95,
+      "propose_fix": "Update the database connection string to reflect the new location."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0045",
+    "description": "Our Network firewalls are blocking some websites. It's a low-severity outage but I need them for research.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network outage",
+      "severity": "low",
+      "affected_system": "Network firewalls",
+      "confidence": 89,
+      "propose_fix": "I\u2019ve temporarily paused the firewall rules to allow access to the affected websites."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0046",
+    "description": "I see a bug in the Web Portal export feature\u2014it overlaps text. It's a medium-severity bug affecting reports.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "bug",
+      "severity": "medium",
+      "affected_system": "Web Portal export feature",
+      "confidence": 95,
+      "propose_fix": "Implement a text alignment filter to prevent overlapping text in export reports."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0047",
+    "description": "I logged an incident because the Mobile App GPS tracking isn\u2019t accurate. It's a high-severity problem for logistics.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "GPS Tracking",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 95,
+      "propose_fix": "Implement a GPS accuracy check and recalibration procedure for the Mobile App."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0048",
+    "description": "I requested service to increase API throughput. It's a critical-severity service request\u2014calls time out constantly.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API throughput",
+      "severity": "critical",
+      "affected_system": "API",
+      "confidence": 95,
+      "propose_fix": "Implement a scaling strategy to increase API throughput to avoid call timeouts."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0049",
+    "description": "I asked for a change in the Reporting Module filters but they didn\u2019t apply. It\u2019s a low-severity change.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0050",
+    "description": "The Authentication Service gave me an unknown error. It's a medium-severity outage stopping logins.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0051",
+    "description": "I encountered a bug in the CRM where tasks duplicate. It's a low-severity bug but clutters my task list.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 95,
+      "propose_fix": "Update the task duplication check to prevent duplicate entries."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0052",
+    "description": "The ERP failed to calculate discounts. This medium-severity incident is affecting quotes.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP system issue",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 89,
+      "propose_fix": "Verify discount rules are correctly configured in the ERP system."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0053",
+    "description": "I need a service request to change my email signature settings in the Email System. It's a high-severity need for branding.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 95,
+      "propose_fix": "Update my email signature settings within the Email System."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0054",
+    "description": "I implemented a database change but data got corrupted. It's a critical-severity change causing data loss.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Database Corruption",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 89,
+      "propose_fix": "Immediately restore the database to its previous state."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0055",
+    "description": "Our Network packet loss spiked. It's a low-severity outage but audio calls cut out.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network outage",
+      "severity": "low",
+      "affected_system": "Network",
+      "confidence": 89,
+      "propose_fix": "Implement QoS prioritization for voice traffic."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0056",
+    "description": "I see a bug in the Web Portal notifications\u2014they repeat. It's a medium-severity bug annoying users.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Web Portal Notifications",
+      "severity": "medium",
+      "affected_system": "Web Portal notifications",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0057",
+    "description": "I reported an incident in the Mobile App where I can\u2019t update my profile. It's a high-severity issue for users.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "App Issue",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please verify the user\u2019s account permissions and grant them access to update their profile."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0058",
+    "description": "I submitted a service request to add new endpoints to the API. It's a critical-severity need for integration.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API Integration",
+      "severity": "critical",
+      "affected_system": "API",
+      "confidence": 89,
+      "propose_fix": "Update the API documentation to reflect the new endpoints and their intended functionality."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0059",
+    "description": "I asked for a change in the Reporting Module date picker but it\u2019s still wrong. It's a low-severity request.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0060",
+    "description": "The Authentication Service locked out users yesterday. It's a medium-severity outage causing support tickets.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0061",
+    "description": "I found a bug in the CRM phone dialer integration. It's a low-severity bug but affects sales calls.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM phone dialer integration bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Implement a retry mechanism for failed dial calls."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0062",
+    "description": "The ERP approval workflow got stuck. This medium-severity incident is delaying approvals.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP workflow issue",
+      "severity": "medium",
+      "affected_system": "ERP approval workflow",
+      "confidence": 89,
+      "propose_fix": "Investigate the error log and address the blockage in the workflow."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0063",
+    "description": "I need a service request to reset blocked email accounts. It's a high-severity request for our staff.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "staff",
+      "confidence": 95,
+      "propose_fix": "Reset blocked email accounts, prioritizing high-severity staff needs."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0064",
+    "description": "I applied a database change but lost indexes. It's a critical-severity change that\u2019s hurting performance.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "database index loss",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 89,
+      "propose_fix": "Restore the database with the latest indexes."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0065",
+    "description": "Our Network DNS resolution fails occasionally. It's a low-severity outage but blocks some sites.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network DNS resolution",
+      "severity": "low",
+      "affected_system": "Network DNS",
+      "confidence": 95,
+      "propose_fix": "Verify DNS server settings on all affected devices."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0066",
+    "description": "I noticed a bug in the Web Portal theme switcher\u2014it resets. It's a medium-severity bug on preferences.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "bug",
+      "severity": "medium",
+      "affected_system": "Web Portal theme switcher",
+      "confidence": 95,
+      "propose_fix": "Please implement a retry mechanism for the theme switcher after a user action like saving or updating a preference.*"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0067",
+    "description": "I opened an incident because the Mobile App camera view is blank. It's a high-severity issue for inspections.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Camera View",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 95,
+      "propose_fix": "Update the camera view to display content upon opening the app."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0068",
+    "description": "I filed a service request to extend API key expiry. It's a critical-severity need to avoid downtime.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API Key Management",
+      "severity": "critical",
+      "affected_system": "API",
+      "confidence": 89,
+      "propose_fix": "Please escalate this issue to the development team and request a new API key with extended expiry."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0069",
+    "description": "I asked to change default charts in the Reporting Module but it didn\u2019t stick. It's a low-severity change.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Chart modification",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 89,
+      "propose_fix": "Update the default chart settings in the Reporting Module."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0070",
+    "description": "The Authentication Service delayed token refresh yesterday. It's a medium-severity outage for sessions.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0071",
+    "description": "I\u2019m seeing a bug in the CRM calendar sync\u2014it duplicates events. It's a low-severity issue but messy.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM calendar sync bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Review event creation and editing processes to prevent duplicate events."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0072",
+    "description": "The ERP inventory counts are off. This medium-severity incident is affecting orders.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "ERP inventory",
+      "severity": "medium",
+      "affected_system": "ERP inventory",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0073",
+    "description": "I requested a service change to adjust email forwarding rules. It's a high-severity need for communications.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "service change",
+      "severity": "high",
+      "affected_system": "email forwarding rules",
+      "confidence": 95,
+      "propose_fix": "Please escalate this issue to a senior technician immediately."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0074",
+    "description": "I applied a database schema change but migrations rollback. It's a critical-severity change blocking releases.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Database migration rollback",
+      "severity": "critical",
+      "affected_system": "Databases",
+      "confidence": 79,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0075",
+    "description": "Our Network throughput dipped under SLAs. It's a low-severity outage but worth fixing.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network Performance",
+      "severity": "low",
+      "affected_system": "Network",
+      "confidence": 89,
+      "propose_fix": "Investigate and resolve the root cause of the network throughput degradation."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0076",
+    "description": "I noticed a bug on the Web Portal login button\u2014it\u2019s misaligned. It's a medium-severity visual bug.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "visual bug",
+      "severity": "medium",
+      "affected_system": "Web Portal login button",
+      "confidence": 95,
+      "propose_fix": "Please adjust the CSS to align the button to the top-left corner of the viewport."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0077",
+    "description": "I reported an incident because the Mobile App offline mode never syncs. It's a high-severity issue for fieldwork.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Mobile App Synchronization",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please enable offline sync for the Mobile App."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0078",
+    "description": "I submitted a service request to provision new API endpoints. It's a critical-severity need for clients.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "critical",
+      "affected_system": "API endpoints",
+      "confidence": 95,
+      "propose_fix": "Please escalate this request to the appropriate engineering team for immediate attention."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0079",
+    "description": "I asked for a change in Reporting Module permissions but no effect. It's a low-severity request.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0080",
+    "description": "The Authentication Service rejected OAuth tokens. It's a medium-severity outage stopping SSO.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    },
+    "human_resolution": "cognito token issue due to aws problem"
+  },
+  {
+    "ticket_no": "TICKET-0081",
+    "description": "I found a bug in the CRM task reminders\u2014they never pop up. It's a low-severity issue but I miss alerts.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM task reminders",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 95,
+      "propose_fix": "Implement a trigger to automatically display task reminder notifications in the CRM."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0082",
+    "description": "The ERP purchase order screen errors out. This medium-severity incident is delaying procurement.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP Purchase Order",
+      "severity": "medium",
+      "affected_system": "ERP purchase order screen",
+      "confidence": 95,
+      "propose_fix": "Please review the data in the purchase order fields to ensure accuracy."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0083",
+    "description": "I need a service request to adjust spam filters in the Email System. It's a high-severity request.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 95,
+      "propose_fix": "We need to implement a new configuration to adjust the spam filter settings for all email users."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0084",
+    "description": "I implemented a database change but logs fill up. It's a critical-severity change clogging storage.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Database performance",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 89,
+      "propose_fix": "Update the database connection pool size to reduce memory consumption."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0085",
+    "description": "Our Network latency spikes every hour. It's a low-severity outage but noticeable during calls.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network latency",
+      "severity": "low",
+      "affected_system": "Network",
+      "confidence": 95,
+      "propose_fix": "Implement a scheduled task to periodically check network latency and alert if it exceeds a threshold."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0086",
+    "description": "I see a bug in the Web Portal filter panel\u2014it freezes. It's a medium-severity issue when sorting data.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Web Portal Filter",
+      "severity": "medium",
+      "affected_system": "Web Portal",
+      "confidence": 95,
+      "propose_fix": "Update the filter panel to ensure consistent data rendering."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0087",
+    "description": "I logged an incident because the Mobile App chat function disconnects. It's a high-severity issue for support teams.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "application functionality",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please verify the connection settings within the app to ensure stable communication."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0088",
+    "description": "I submitted a service request to extend API logging retention. It's a critical-severity need for audits.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "service request",
+      "severity": "critical",
+      "affected_system": "API logging",
+      "confidence": 95,
+      "propose_fix": "Please escalate this request to the engineering team to extend the API logging retention period."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0089",
+    "description": "I asked to change default notification settings in the Reporting Module but it didn\u2019t apply. It's a low-severity change.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Configuration Change",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 89,
+      "propose_fix": "Please verify the notification settings are correctly configured within the Reporting Module."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0090",
+    "description": "The Authentication Service lagged on password resets. It's a medium-severity outage frustrating users.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0091",
+    "description": "I\u2019m seeing a bug in the CRM merge function\u2014it duplicates contacts. It's a low-severity issue but tedious to clean up.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "CRM bug",
+      "severity": "low",
+      "affected_system": "CRM",
+      "confidence": 89,
+      "propose_fix": "Implement a contact deduplication filter before the merge operation."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0092",
+    "description": "The ERP expense approvals got stuck. This medium-severity incident is delaying reimbursements.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "ERP expense approvals",
+      "severity": "medium",
+      "affected_system": "ERP",
+      "confidence": 95,
+      "propose_fix": "Investigate the network connectivity to the ERP system and resolve any reported outages."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0093",
+    "description": "I need a service request to add new SMTP servers to the Email System. It's a high-severity request.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Service Request",
+      "severity": "high",
+      "affected_system": "Email System",
+      "confidence": 95,
+      "propose_fix": "\u201cImplement a service request to add new SMTP servers to the email system.\u201d"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0094",
+    "description": "I pushed a database change but lost stored procedures. It's a critical-severity change blocking features.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "database migration",
+      "severity": "critical",
+      "affected_system": "database",
+      "confidence": 89,
+      "propose_fix": "Restore the database schema from the last known good backup."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0095",
+    "description": "Our Network DNS lookup fails on some domains. It's a low-severity outage but blocks development.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Network DNS lookup failure",
+      "severity": "low",
+      "affected_system": "Network DNS",
+      "confidence": 89,
+      "propose_fix": "Verify DNS server settings on all affected devices."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0096",
+    "description": "I noticed a bug in the Web Portal theme switcher\u2014it reverts on refresh. It's a medium-severity annoyance.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "web portal bug",
+      "severity": "medium",
+      "affected_system": "Web Portal",
+      "confidence": 89,
+      "propose_fix": "Update the CSS to include a persistent state for the theme switcher."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0097",
+    "description": "I filed an incident because the Mobile App chat function disconnects. It's a high-severity issue for support teams.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "Application/Mobile App Issue",
+      "severity": "high",
+      "affected_system": "Mobile App",
+      "confidence": 89,
+      "propose_fix": "Please verify connectivity to the Mobile App, as the disconnect is likely a bug."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0098",
+    "description": "I submitted a service request to upgrade our API tier. It's a critical-severity request to handle load.",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "API Tier Upgrade",
+      "severity": "critical",
+      "affected_system": "API tier",
+      "confidence": 89,
+      "propose_fix": "Update the API tier to the highest supported version."
+    }
+  },
+  {
+    "ticket_no": "TICKET-0099",
+    "description": "I asked for a change in the Reporting Module color scheme but no update. It's a low-severity aesthetic request.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Reporting Module",
+      "severity": "low",
+      "affected_system": "Reporting Module",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0100",
+    "description": "The Authentication Service token refresh delays logins. It's a medium-severity outage causing session timeouts.",
+    "status": "need review",
+    "ai_analysis": {
+      "issue_type": "Authentication Service",
+      "severity": "medium",
+      "affected_system": "Authentication Service",
+      "confidence": 70,
+      "propose_fix": "none"
+    }
+  },
+  {
+    "ticket_no": "TICKET-0101",
+    "description": "The billing page freezes when I click Apply Discount",
+    "status": "closed",
+    "ai_analysis": {
+      "issue_type": "billing",
+      "severity": "medium",
+      "affected_system": "payment system",
+      "confidence": 79,
+      "propose_fix": "none"
+    },
+    "human_resolution": "the billing page stuck because of api fault which need to be fixed"
+  }
+]
